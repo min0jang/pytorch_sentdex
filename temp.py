@@ -40,4 +40,4 @@ net = Net()
 X = torch.rand((28, 28))
 output = net(X.view(1,28*28))
 
-print(output)
+print("It has been pushed correctly")
